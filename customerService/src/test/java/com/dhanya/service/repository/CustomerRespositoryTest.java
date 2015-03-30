@@ -26,9 +26,9 @@ public class CustomerRespositoryTest {
 
 	@Test
 	public void testCreateCustomer() {
-		String firstname = "Dhanya"; // this data is populated in testData.sql
-		String lastname = "gutta";
-		String email = "gutta.dhanya@gmail.com";
+		String firstname = "xyz"; // this data is populated in testData.sql
+		String lastname = "xyz";
+		String email = "xyz@gmail.com";
 		String phone = "487668662";
 		Customer customer = new Customer();
 		customer.setFirstName(firstname);
@@ -65,7 +65,7 @@ public class CustomerRespositoryTest {
 	
 	@Test
 	public void testSearchUserByFirstName() {
-		String existingUsersfirstname = "Dhanya"; // this data is populated testData.sql
+		String existingUsersfirstname = "xyz"; // this data is populated testData.sql
 		Customer customer = new Customer();
 
 		SearchType searchType = SearchType.FIRSTNAME;

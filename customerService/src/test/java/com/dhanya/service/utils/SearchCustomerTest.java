@@ -14,7 +14,7 @@ public class SearchCustomerTest {
 	@Test
 	public void testSearchType()
 	{
-		SearchCustomer searchCustomer = new SearchCustomer(SearchType.FIRSTNAME, "Dhanya");
+		SearchCustomer searchCustomer = new SearchCustomer(SearchType.FIRSTNAME, "xyz");
 		assertNotNull(searchCustomer);
 	}
 
@@ -22,10 +22,10 @@ public class SearchCustomerTest {
 	@Test
 	public void testSearchFirstNameTypeAndValue()
 	{
-		String firstName ="Dhanya";
+		String firstName ="xyz";
 		SearchType searchType = SearchType.FIRSTNAME;
 		
-		SearchCustomer searchCustomer = new SearchCustomer(SearchType.FIRSTNAME, "Dhanya");
+		SearchCustomer searchCustomer = new SearchCustomer(SearchType.FIRSTNAME, "xyz");
 		assertEquals("equal",searchCustomer.getSearchType(),searchType);
 		assertEquals("equl",searchCustomer.getSearchValue(),firstName);
 	}
@@ -34,9 +34,9 @@ public class SearchCustomerTest {
 	@Test
 	public void TestSearchPhoneTypeAndValue()
 	{
-		String phone ="9848819477";
+		String phone ="12345678";
 		SearchType searchType = SearchType.PHONE;
-		SearchCustomer searchCustomer = new SearchCustomer(SearchType.PHONE, "9848819477");
+		SearchCustomer searchCustomer = new SearchCustomer(SearchType.PHONE, "12345678");
 		assertEquals("equal",searchCustomer.getSearchType(),searchType);
 		assertEquals("equal",searchCustomer.getSearchValue(),phone);
 	}
@@ -44,10 +44,10 @@ public class SearchCustomerTest {
 	@Test
 	public void TestSearchLasttNameTypeAndValue()
 	{
-		String lastName ="Gutta";
+		String lastName ="xyz";
 		SearchType searchType = SearchType.LASTNAME;
 		
-		SearchCustomer searchCustomer = new SearchCustomer(SearchType.LASTNAME, "Gutta");
+		SearchCustomer searchCustomer = new SearchCustomer(SearchType.LASTNAME, "xyz");
 		assertEquals("equal",searchCustomer.getSearchType(),searchType);
 		assertEquals("equl",searchCustomer.getSearchValue(),lastName);
 	}
@@ -56,9 +56,9 @@ public class SearchCustomerTest {
 	@Test
 	public void TestSearchEmailTypeAndValue()
 	{
-		String email ="gutta.dhanya@gmail.com";
+		String email ="xyz@gmail.com";
 		SearchType searchType = SearchType.EMAIL;
-		SearchCustomer searchCustomer = new SearchCustomer(SearchType.EMAIL, "gutta.dhanya@gmail.com");
+		SearchCustomer searchCustomer = new SearchCustomer(SearchType.EMAIL, "xyz@gmail.com");
 		assertEquals("equal",searchCustomer.getSearchType(),searchType);
 		assertEquals("equal",searchCustomer.getSearchValue(),email);
 	}
