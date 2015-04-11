@@ -27,13 +27,12 @@ You can optionally use homebrew to install the binaries above<br>
 
 <h3> Starting the Application </h3>
 
-cd ~/{yourworkspace}/ <br>
-mvn exec:java -pl <br>
+<h2>Run customerService</h2>
+cd ~/{yourworkspace}/sample-management-system <br>
+mvn exec:java -pl customerService<br>
 Default port: 9001. You can also set another port by passing command line arguments as port number<br>
 
-<h2>sample-management-system application consists of three components</h2>
-A WebMVC application <br>
-A Mailing System <br>
-Common Libraries - Including DataStore persistence and ActiveMQ configurations that are shared by both the applications. <br>
-
+<h2>Run EmailService</h2>
+cd ~/{yourworkspace}/sample-management-system <br>
+mvn exec:java -pl emailService<br>
 
