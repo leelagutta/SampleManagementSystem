@@ -1,5 +1,5 @@
-<h2> INTRODUCTION </h2> <br>
-Sample application of customer management system and Mailing Application that reads and writes to and from the messaging system.<br>
+<h2> INTRODUCTION </h2>
+Sample customer management system and Mailing Application that reads and writes to and from the messaging system.<br>
 
 <h2>TECH STACK OUTLINE </h2>
 1. Java EE 8:Bean validation using JSR(349) <br>
@@ -20,9 +20,10 @@ Sample application of customer management system and Mailing Application that re
 5. Working with Java Mail API to send email notifications, which are read from the queue asynchronously. <br>
 
 <h2>Tools to install</h2>
-ActiveMQ: http://activemq.apache.org/download.html<br>
-MySQL: http://dev.mysql.com/downloads/mysql/<br>
-Maven 3: https://maven.apache.org/download.cgi<br>
+1. ActiveMQ: http://activemq.apache.org/download.html<br>
+2. MySQL: http://dev.mysql.com/downloads/mysql/<br>
+3. Maven 3: https://maven.apache.org/download.cgi<br>
+
 You can optionally use homebrew to install the binaries above<br>
 
 <h3> Starting the Application </h3>
@@ -36,7 +37,7 @@ Default port: 9001. You can also set another port by passing command line argume
 cd ~/{yourworkspace}/sample-management-system <br>
 mvn exec:java -pl emailService<br>
 
-<h3>Run Unit Tests/Buid Applications<h3>
+<h3>Run Unit Tests/Buid Applications</h3>
 mvn clean test install 
 
 
