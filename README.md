@@ -1,5 +1,5 @@
-<h1> INTRODUCTION </h1> <br>
-Sample appliaction of customer management system and Mailing Application that reads and writes to and from the messaging system.<br>
+<h2> INTRODUCTION </h2> <br>
+Sample application of customer management system and Mailing Application that reads and writes to and from the messaging system.<br>
 
 <h3>This application demonstartes some of the key features of Java EE 8, Spring MVC 3.2.3 like </h3> <br>
 1.Form/bean validations<br>
@@ -25,8 +25,8 @@ A Mailing System <br>
 Common Libraries - Including DataStore persistence and ActiveMQ configurations that are shared by both the applications. <br>
 
 <h3>Tools to install</h3>
-ActiveMQ: http://activemq.apache.org/download.html
-MySQL: http://dev.mysql.com/downloads/mysql/
-Maven 3: https://maven.apache.org/download.cgi
+ActiveMQ: http://activemq.apache.org/download.html<br>
+MySQL: http://dev.mysql.com/downloads/mysql/<br>
+Maven 3: https://maven.apache.org/download.cgi<br>
 
 
