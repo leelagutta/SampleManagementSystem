@@ -36,3 +36,7 @@ Default port: 9001. You can also set another port by passing command line argume
 cd ~/{yourworkspace}/sample-management-system <br>
 mvn exec:java -pl emailService<br>
 
+<h3>Run Unit Tests/Buid Applications<h3>
+mvn clean test install 
+
+
